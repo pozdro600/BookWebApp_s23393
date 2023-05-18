@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: book-web-app
+  config.import:
+    - classpath:properties/persistence.yml
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web=DEBUG: DEBUG
+
+server.port: 8080
+
+
+
+
+
+
